@@ -37,8 +37,19 @@
         color: #000;
       }
 
-      .links {
+      h2 {
+        font-size: 1rem;
+        font-weight: bold;
         margin-top: 2rem;
+      }
+
+      ul {
+        list-style: none;
+        padding-left: 0;
+      }
+
+      li {
+        margin-bottom: 1rem;
       }
 
       footer {
@@ -54,47 +65,56 @@
       <h1>Hi, I'm Boris.</h1>
 
       <p>
-        Generalist software engineer. Looking for simple solutions that
-	still work in two years.
+        I used to write software, that forgotten art of typing weird-looking
+        text with far too many brackets ({[(&lt;like this&gt;)]}). These days I
+        have long conversations with AI agents until they do it for me.
       </p>
 
       <p>
-        I've been crafting software since 2002 — that's 23+ years of code
-        wizardry! From game engines, over car navigation systems to
-	FinTech platforms. I saw the good, the bad and the ugly in many
-	industries. 
+        I still like simple solutions that work in two years. The agents
+        prefer forty files and a framework. We're working on it.
       </p>
 
-      <div class="links">
-        <p>
-          Currently talking to agents at
-          <a href="https://re-cap.com/" target="_blank">re:cap</a> as a product
-          engineer, helping businesses to find funding.
-        </p>
+      <p>
+        I've been at it since 2002: game engines, car navigation, finance.
+        I've seen the good, the bad and the ugly, and I've written some of the
+        ugly myself.
+      </p>
 
-        <p>
-          Before that, I co-founded
-          <a href="https://xelonic.com/" target="_blank">xelonic</a>, where I
-          built a platform to analyze the stock market based on SEC filings
-	  and real-time stock data.
-          (microservices in Go & C++, Kubernetes clusters, and all that
-          fun DevOps stuff!)
-        </p>
+      <h2>Career, in reverse:</h2>
 
-        <p>
-          My journey includes stints at HERE (building rendering engines for car
-          navigation), the German Research Center for Artificial Intelligence
-          (DFKI), and even an internship at Crytek way back in 2003 doing QA for
-          Far Cry!
-        </p>
+      <ul>
+        <li>
+          <a href="https://re-cap.com/" target="_blank">re:cap</a> — Product
+          engineer, helping businesses find funding. Mostly by delegating to
+          the agents mentioned above.
+        </li>
+        <li>
+          <a href="https://xelonic.com/" target="_blank">xelonic</a> —
+          Co-founder. We read every SEC filing so nobody else had to, then did
+          math to it in real time. Go, C++, and more Kubernetes than any one
+          person should have to love.
+        </li>
+        <li>
+          HERE — Built rendering engines for car navigation. If you ever
+          missed an exit, that was the map's fault. Not mine. Probably.
+        </li>
+        <li>
+          DFKI — The German Research Center for Artificial Intelligence, back
+          when AI was a quieter field.
+        </li>
+        <li>
+          Crytek, 2003 — QA intern on <em>Far Cry</em>. Paid to play video
+          games. Professionally, I've been chasing that high ever since.
+        </li>
+      </ul>
 
-        <p>
-          Want to connect? Find me on
-          <a href="https://www.linkedin.com/in/borisbroenner/" target="_blank"
-            >LinkedIn</a
-          >.
-        </p>
-      </div>
+      <p>
+        Want to talk? Find me on
+        <a href="https://www.linkedin.com/in/borisbroenner/" target="_blank"
+          >LinkedIn</a
+        >.
+      </p>
     </main>
 
     <footer>
@@ -102,7 +122,8 @@
       <script>
         document.write(new Date().getFullYear());
       </script>
-      Boris Brönner
+      Boris Brönner · Plain HTML, no build step. This page will also still
+      work in two years.
     </footer>
   </body>
 </html>
